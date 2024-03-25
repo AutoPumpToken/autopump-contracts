@@ -1,0 +1,25 @@
+{
+  "name": "pepepump-token",
+  "version": "1.0.0",
+  "description": "# Token",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "forge test",
+    "lint:sol": "npx solhint 'src/**/*.sol'",
+    "lint:sol-fix": "npx prettier 'src/**/*.sol' --write && npx solhint 'src/**/*.sol' --fix",
+    "lint": "npm run lint:sol",
+    "lint:fix": "npm run lint:sol-fix"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-solidity": "^1.3.1",
+    "solhint": "^4.0.0",
+    "solhint-plugin-prettier": "^0.1.0"
+  },
+  "author": "@solichain",
+  "license": "MIT"
+}
