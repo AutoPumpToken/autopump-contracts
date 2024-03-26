@@ -22,7 +22,7 @@ contract AutoPump is ERC20, Ownable, IAutoPump {
     uint256 public pumpEthThreshold;
     uint256 public liquifyTokenThreshold;
 
-    address public constant BURN_ADDRESS = 0x000000000000000000000000000000000000dEaD;
+    address public constant BURN_ADDRESS = 0x0000000000000000000000000000000000000000;
 
     IUniswapV2Router02 public uniswapV2Router;
     IUniswapV2Router02 public uniswapV2Router2;
