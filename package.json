@@ -1,8 +1,7 @@
 {
-  "name": "pepepump-token",
+  "name": "AutoPump",
   "version": "1.0.0",
-  "description": "# Token",
-  "main": "index.js",
+  "description": "Empowering DeFi pioneers with cutting-edge AutoPump tokenomics for unstoppable Pump 🚀",
   "directories": {
     "lib": "lib",
     "test": "test"
